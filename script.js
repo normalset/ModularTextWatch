@@ -55,9 +55,19 @@ function colorPM(color){
 }
 
 function colorBorder(color){
+  console.log(`coloring ${color} the border`)
+
   let target = document.getElementsByClassName('clock')[0]
-   color=='dayColor'?target.classList.add('dayColor'):target.classList.remove('nightColor')
+
+  if(color == 'dayColor'){
+    target.classList.add('dayColor');
+    target.classList.remove('nightColor')
+  }else{
+    target.classList.remove('dayColor');
+    target.classList.add('nightColor')
+  }
 }
+
 
 function updateTime() {
   // Get the current time
