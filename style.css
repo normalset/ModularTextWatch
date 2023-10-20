@@ -19,6 +19,9 @@ body{
   p{
     color: black;
   }
+  .description{
+    color : black ;
+  }
 }
 
 
@@ -31,6 +34,9 @@ body{
   }
 
   p{
+    color: #FCFBF4;
+  }
+  .description{
     color: #FCFBF4;
   }
 }
