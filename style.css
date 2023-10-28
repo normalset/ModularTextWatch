@@ -19,9 +19,6 @@ body{
   p{
     color: black;
   }
-  .description{
-    color : black ;
-  }
 }
 
 
@@ -36,9 +33,6 @@ body{
   p{
     color: #FCFBF4;
   }
-  .description{
-    color: #FCFBF4;
-  }
 }
 
 
@@ -48,11 +42,11 @@ body{
   position: relative;
   display: grid;
   flex:1;
-  height: 280px;
-  width: 280px;
+  height: 25vw;
+  width: 25vw;
   border: 0.1px solid white;
   border-radius: 5px;
-  padding: 50px;
+  padding: 4.5vw;
   text-align: center;
   margin: 0px auto;
   overflow:hidden;
@@ -98,7 +92,7 @@ p,
 .ten-down,
 .oclock {
   margin: 0px;
-  font-size: 1.5em;
+  font-size: 1.8vw;
   justify-content: space-between;
   font-family: 'Quicksand', sans-serif;
   transition: 250ms ease;
@@ -129,13 +123,13 @@ p,
   font-family: 'Quicksand', sans-serif;
 }
 .title{
-  font-size: 25px;
-  margin: 25px auto;
+  font-size: 3vw;
+  margin: 3vw auto;
   text-align: center;
 }
 
 .description{
-  margin: 25px auto;
+  margin: 3vw auto;
   text-align:center;
   opacity:60%
 }
