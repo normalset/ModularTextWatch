@@ -13,7 +13,7 @@ function on(className) {
 }
 
 function off(className) {
-  console.log('offing ', className)
+  // console.log('offing ', className)
   const elements = document.getElementsByClassName(className);
   const elementsArray = Array.from(elements); // Convert HTMLCollection to an array
 
@@ -55,7 +55,7 @@ function colorPM(color){
 }
 
 function colorBorder(color){
-  console.log(`coloring ${color} the border`)
+  // console.log(`coloring ${color} the border`)
 
   let target = document.getElementsByClassName('clock')[0]
 
@@ -75,7 +75,7 @@ function updateTime() {
   let hours = now.getHours();
   let minutes = now.getMinutes();
   let isDay = true
-  console.log(hours , minutes)
+  // console.log(hours , minutes)
   // Adjust hours for 12-hour clock
   if (hours > 12) {
     hours = hours - 12;
