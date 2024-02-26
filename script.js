@@ -1,7 +1,7 @@
 setInterval(updateTime, 1000);
 
 function on(className) {
-  console.log("onning ", className)
+  //console.log("onning ", className)
   const elements = document.getElementsByClassName(className);
   const elementsArray = Array.from(elements); // Convert HTMLCollection to an array
 
